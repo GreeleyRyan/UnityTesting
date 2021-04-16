@@ -1029,7 +1029,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Control you cannon with your mouse and keyboard\nW: Increase Fire Power\t\t\tFire:
-    Space\nS: Lower Fire Power\t\t\tPause: Enter\nAim: Mouse Movement"
+    Space\nS: Lower Fire Power\t\t\tPause: Enter\nAim: Left click and drag your cannon"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2522,7 +2522,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 334410140}
-  - {fileID: 1051369601}
   m_Father: {fileID: 893984025}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3143,7 +3142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &893984025
 Transform:
   m_ObjectHideFlags: 0
@@ -3685,96 +3684,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025258109}
   m_CullTransparentMesh: 1
---- !u!1001 &1051369600
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 736775748}
-    m_Modifications:
-    - target: {fileID: 116434, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_Name
-      value: cannon_upgrade_03
-      objectReference: {fileID: 0}
-    - target: {fileID: 116434, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 125388, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 136734, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 139506, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 145574, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 173610, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 181816, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.749512
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -30.898865
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1250.468
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
---- !u!4 &1051369601 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 443840, guid: 3a3cc95293df01741b392867d0340f4c, type: 3}
-  m_PrefabInstance: {fileID: 1051369600}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1064456200
 GameObject:
   m_ObjectHideFlags: 0
@@ -6870,7 +6779,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1853691029
 Transform:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ public class CannonController : MonoBehaviour
     //public ParticleSystem explosion;
     public GameObject cannonBall;
     public Transform frontOfBarrel;
-    public float firePower = 50.0f;
+    public float firePower = 0;
     private Rigidbody cannonBallRB;
 
     // Start is called before the first frame update
@@ -34,7 +34,7 @@ public class CannonController : MonoBehaviour
     {
         mainCamera = Camera.main;
         isCannonReady = true;
-        currentPowerText.text = "Current Power" + 50;
+        currentPowerText.text = "Current Power" + 0;
         currentAngleText.text = "Current Angle: " + 0;
         cannonReadyText.text = "Cannon is Ready!";
 
@@ -123,9 +123,9 @@ public class CannonController : MonoBehaviour
     {
         float verticalInput = Input.GetAxis("Vertical");
         firePower += verticalInput;
-        if(firePower > 100)
+        if(firePower > 50)
         {
-            firePower = 100;
+            firePower = 50;
         }
         else if(firePower < 0)
         {
@@ -136,7 +136,7 @@ public class CannonController : MonoBehaviour
     void UpdatePowerText()
     {
 
-        currentPowerText.text = "Power: " + ((int) firePower);
+        currentPowerText.text = "Power: " + ((int) firePower * 2);
     }
 
     void UpdateAngleText()
