@@ -15,7 +15,7 @@ public class PeasantController : MonoBehaviour
     void Update()
     {
         //checks if the gameObject has been knocked over. Destroys the gameObject on delay if it has to prevent instant destory call
-        Debug.Log("Current Angles: " + gameObject.transform.localEulerAngles.x + " " + gameObject.transform.localEulerAngles.y + " " + gameObject.transform.localEulerAngles.z);
+        //Debug.Log("Current Angles: " + gameObject.transform.localEulerAngles.x + " " + gameObject.transform.localEulerAngles.y + " " + gameObject.transform.localEulerAngles.z);
         if (gameObject.transform.localEulerAngles.x < 300 && !(gameObject.transform.localEulerAngles.x < 60))
         {
             StartCoroutine(DestroyOnDelay());
